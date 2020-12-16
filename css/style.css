@@ -1,3 +1,8 @@
+body,
+html {
+  height: 100vh;
+}
+
 body {
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -44,6 +49,10 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3rem;
   }
+}
+
+.rowOutline {
+  border: 1.5px solid black;
 }
 
 .showcase .showcase-text {
@@ -120,6 +129,8 @@ header.masthead h1 {
 }
 
 footer.footer {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  left: 0;
+  bottom: 0;
 }

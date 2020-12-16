@@ -10,25 +10,13 @@
 <body>
     <!-- Masthead -->
     <header class="masthead text-white text-center">
-        <div class="overlay"></div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto">
                     <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
                 </div>
-                <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-                    <form>
-                        <div class="form-row">
-                            <div class="col-12 col-md-9 mb-2 mb-md-0">
-                                <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-                            </div>
-                            <div class="col-12 col-md-3">
-                                <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-                            </div>
-                        </div>
-                    </form>
-                </div>
             </div>
+            <a class="btn btn-primary  btn__top" href="#signUp" role="button">Sign Up!</a>
         </div>
     </header>
 
@@ -50,8 +38,8 @@
                         <div class="features-icons-icon d-flex">
                             <i class="icon-layers m-auto text-primary"></i>
                         </div>
-                        <h3>Bootstrap 4 Ready</h3>
-                        <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
+                        <h3>Ready 4 You</h3>
+                        <p class="lead mb-0">Featuring the latest build of the our new Web Dez team!</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -70,26 +58,26 @@
     <!-- Image Showcases -->
     <section class="showcase">
         <div class="container-fluid p-0">
-            <div class="row no-gutters">
+            <div class="row rowOutline no-gutters">
 
                 <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixid=MXwxMjA3fDB8MHxzZWFyY2h8MXx8cHJvZHVjdHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                     <h2>Fully Responsive Design</h2>
-                    <p class="lead mb-0">When you use a theme created by Start Bootstrap, you know that the theme will look great on any device, whether it's a phone, tablet, or desktop the page will behave responsively!</p>
+                    <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam iure, error laudantium perferendis rem quibusdam eius necessitatibus non modi ratione molestiae, fuga in veritatis, rerum provident recusandae vel libero. Similique.</p>
                 </div>
             </div>
-            <div class="row no-gutters">
+            <div class="row rowOutline no-gutters">
                 <div class="col-lg-6 text-white showcase-img" style="background-image: url('https://www.komando.com/wp-content/uploads/2018/03/dreamstime_m_112821987.jpg');"></div>
                 <div class="col-lg-6 my-auto showcase-text">
-                    <h2>Updated For Bootstrap 4</h2>
-                    <p class="lead mb-0">Newly improved, and full of great utility classes, Bootstrap 4 is leading the way in mobile responsive web development! All of the themes on Start Bootstrap are now using Bootstrap 4!</p>
+                    <h2>Updated For Your/h2>
+                        <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque cumque, nostrum ad excepturi perspiciatis hic explicabo aliquam. Fugit similique delectus iusto pariatur, corporis aspernatur soluta asperiores ducimus corrupti, quam dolorum?</p>
                 </div>
             </div>
-            <div class="row no-gutters">
+            <div class="row rowOutline no-gutters">
                 <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('https://static.vecteezy.com/ti/vettori-gratis/p1/523309-sviluppo-web-e-programmazione-concetto-di-codifica-ottimizzazione-seo-web-design-moderno-sullo-schermo-del-computer-portatile-vettore-vettoriale.jpg');"></div>
                 <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                     <h2>Easy to Use &amp; Customize</h2>
-                    <p class="lead mb-0">Landing Page is just HTML and CSS with a splash of SCSS for users who demand some deeper customization options. Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
+                    <p class="lead mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam ipsum ducimus deleniti alias dignissimos nulla rem doloribus enim, nesciunt eos, maxime atque molestiae adipisci temporibus quia officiis est sed numquam.</p>
                 </div>
             </div>
         </div>
@@ -111,7 +99,7 @@
                     <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                         <img class="img-fluid rounded-circle mb-3" src="https://media.istockphoto.com/photos/portrait-of-a-young-woman-outdoors-smiling-picture-id1135380914?k=6&m=1135380914&s=612x612&w=0&h=HEoqlvnOzUPm-5TJSZoAgosj2d2CdF6bEk4i1QYC1VI=" alt="">
                         <h5>Sarah W.</h5>
-                        <p class="font-weight-light mb-0">"Bootstrap is amazing. I've been using it to create lots of super nice landing pages."</p>
+                        <p class="font-weight-light mb-0">"Web Dez is amazing. I've been using it to create lots of super nice landing pages."</p>
                     </div>
                 </div>
                 <div class="col-lg-4">
@@ -126,7 +114,7 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="call-to-action text-white text-center">
+    <section id="signUp" class="call-to-action text-white text-center">
         <div class="overlay"></div>
         <div class="container">
             <div class="row">
