@@ -12,6 +12,9 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="onas.php">About Us</a>
         </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="contact.php">Contact</a>
+        </li>
       </ul>
     </div>
   </div>
