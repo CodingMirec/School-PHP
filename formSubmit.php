@@ -40,17 +40,18 @@ if (isset($_POST['submit'])) {
         echo $message;
         echo '<br>';
 
-        // To send HTML mail, the Content-type header must be set
-        $headers[] = 'MIME-Version: 1.0';
-        $headers[] = 'Content-type: text/html; charset=utf-8';
+        // // To send HTML mail, the Content-type header must be set
+        // $headers[] = 'MIME-Version: 1.0';
+        // $headers[] = 'Content-type: text/html; charset=utf-8';
 
-        // Additional headers
-        $headers[] = 'From: Birthday Reminder <birthday@example.com>';
+        // // Additional headers
+        // $headers[] = 'From: Birthday Reminder <birthday@example.com>';
 
-        // Mail it
-        mail('deathyst@gmail.com', $name, $subject, $message, implode("\r\n", $headers));
+        // // Mail it
+        // mail('deathyst@gmail.com', $name, $subject, $message, implode("\r\n", $headers));
     } else {
         echo 'chyby:';
+        echo '<br>';
         echo $chybovaHlaska;
     }
 } else {
