@@ -33,7 +33,7 @@
                                     <h3 class="mb-4">Come and join us!</h3>
                                     <div id="form-message-warning" class="mb-4"></div>
                                     <div id="form-message-success" class="mb-4">
-                                        Ligin successful, thank you!
+                                        Login successful, thank you!
                                     </div>
                                     <form method="POST" action="loginSubmit.php" id="contactForm" name="contactForm" class="contactForm">
                                         <div class="row">
@@ -46,6 +46,7 @@
                                             <div class="col-md-6">
                                                 <div class="form-group">
                                                     <label class="label" for="lastName">Last Name</label>
+
                                                     <input type="text" class="form-control" name="lastName" id="firstName" placeholder="Last Name">
                                                 </div>
                                             </div>
@@ -63,7 +64,7 @@
                                             </div>
                                             <div class="col-md-12">
                                                 <div class="form-group d-flex justify-content-center">
-                                                    <input type="submit" value="Send Message" name="submit" class="btn btn-primary">
+                                                    <input type="submit" value="Login" name="submit" class="btn btn-primary">
                                                     <div class="submitting"></div>
                                                 </div>
                                             </div>
