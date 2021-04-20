@@ -137,10 +137,5 @@
         </div>
     </section>
 
-
+    <?php include "inc/footer.php"; ?>
 </body>
-
-
-
-
-<?php include "inc/footer.php"; ?>

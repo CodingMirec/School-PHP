@@ -27,12 +27,22 @@ if (isset($_POST['submit'])) {
         $chybovaHlaska .= 'chyba mail <br>';
     }
 
-    $address = 'nevyplnil';
-    if (isset($_POST['address']) && $_POST['address'] != '') {
-        $address = $_POST['address'];
+    $password = 'nevyplnil';
+    if (isset($_POST['password']) && $_POST['password'] != '') {
+        $password = $_POST['password'];
     } else {
-        $address = 'nevyplnil';
+        $chyba = true;
+        $chybovaHlaska .= 'chyba heslo <br>';
     }
+
+    $repeatPassword = 'nevyplnil';
+    if (isset($_POST['repeatPassword']) && $_POST['repeatPassword'] != '') {
+        $repeatPassword = $_POST['repeatPassword'];
+    } else {
+        $chyba = true;
+        $chybovaHlaska .= 'hesla sa nezhoduju <br>';
+    }
+
 
     if (!$chyba) {
         echo $firstName;
@@ -41,7 +51,9 @@ if (isset($_POST['submit'])) {
         echo '<br>';
         echo $email;
         echo '<br>';
-        echo $address;
+        echo $password;
+        echo '<br>';
+        echo $repeatPassword;
         echo '<br>';
     } else {
         echo 'chyby:';

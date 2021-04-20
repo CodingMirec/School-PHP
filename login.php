@@ -50,18 +50,25 @@
                                                     <input type="text" class="form-control" name="lastName" id="firstName" placeholder="Last Name">
                                                 </div>
                                             </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="label" for="password">Password</label>
+                                                    <input type="password" class="form-control" name="password" id="password" placeholder="Your Password">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="label" for="password">Repeat Password</label>
+                                                    <input type="password" class="form-control" name="repeatPassword" id="repeatPassword" placeholder="Same Password">
+                                                </div>
+                                            </div>
                                             <div class="col-md-12">
                                                 <div class="form-group">
                                                     <label class="label" for="email">Email</label>
                                                     <input type="email" required class="form-control" name="email" id="email" placeholder="Email">
                                                 </div>
                                             </div>
-                                            <div class="col-md-12">
-                                                <div class="form-group">
-                                                    <label class="label" for="address">Address</label>
-                                                    <input type="text" class="form-control" name="address" id="address" placeholder="Address">
-                                                </div>
-                                            </div>
+
                                             <div class="col-md-12">
                                                 <div class="form-group d-flex justify-content-center">
                                                     <input type="submit" value="Login" name="submit" class="btn btn-primary">
